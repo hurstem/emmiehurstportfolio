@@ -1,0 +1,18 @@
+body, html {
+     height: 100%;
+}
+ .bg {
+     background-image: url("file:///Users/ehurst/Library/Mobile%20Documents/com~apple~CloudDocs/Portfolio/Portfolio%20Website%20%E2%80%93%C2%A0Scratch%20Code/img/landingPageBkgrnImg.png");
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: 1000;
+}
+
+img{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

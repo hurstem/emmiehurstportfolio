@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+ @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	 
+    /*NAVIGATION*/
+     #nav{
+         display: none;
+    }
+     #mobileNav{
+         visibility: visible;
+         display: block;
+    }
+     .navbar img{
+         width: 60%;
+    }
+     .navbar-toggler{
+         background-color: #5b0f0a!important;
+         margin-right: 2rem;
+    }
+     .navbar-toggler:active{
+         background-color: rgb(73, 150, 138)!important;
+    }
+     .navbar-nav{
+         margin-top: 2rem;
+    }
+     .nav-item{
+         margin-left: 2rem;
+         font-size: 16px;
+    }
+	 .nav-link{		 
+     font-family: 'Raleway', sans-serif;
+	 font-size: 2rem;
+     color: #1f1f1f;
+	 }
+	 .nav-link:active{
+		 color: rgb(73, 150, 138)!important;
+	 }
+	 .active{
+		 color: rgb(73, 150, 138)!important;
+		 font-weight: 600;
+	 }
+     .navbar-brand{
+         margin-left: 2rem;
+         width: 80%;
+    }
+	 
+    /*MAIN CONTENT*/
+     .mainContent{
+         display: none;
+    }
+     .mainContentMobile{
+         display: block;
+         width: 95%;
+         margin: 1rem auto;
+    }
+	 
+    /* BUTTONS*/
+     button .fa-solid{
+         padding: .25rem;
+         color: #FFFFFF!important;
+         margin: 0rem;
+    }
+     .previousPage img{
+         width: 100%;
+    }
+     .nextPage img{
+         width: 100%;
+    }
+     .nextPage:active{
+         opacity: 50%;
+    }
+}

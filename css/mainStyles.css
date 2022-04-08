@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* CSS Document */
+/*font-family: 'Hepta Slab', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
+/*RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126License: none (public domain)*/
+ html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, big, del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var, b, u, i, center, dl, dt, dd, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, footer, header, hgroup, menu, nav, output, ruby, summary, time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav {
+     display: block;
+}
+ body {
+     line-height: 1;
+	 background-color: rgba(73, 150, 138, .15)!important;
+}
+ q {
+     quotes: none;
+}
+ blockquote:before, blockquote:after, q:before, q:after {
+     content: "";
+     content: none;
+}
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+
+/*CSS*/
+a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+     color: #3d3d3d!important;
+	font-size: 0.875rem;
+	text-decoration: none!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+     color: #1f1f1f;
+}
+h1{
+	font-weight: 700;
+	font-size: 2.25rem;
+}
+h2{
+	font-weight: 600;
+	font-size: 1.875rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1.125rem;
+}
+h5{
+	font-style: italic;
+	font-size: 0.75rem;
+}
+h6{
+	font-style: italic;
+	font-size: 0.375rem;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+     color: #3d3d3d;
+	font-size: 0.875rem;
+}
+
+#photoEditingHeader{
+	margin: 5rem 0rem 2rem;
+}
+
+/*NAVIGATION*/
+#mobileNav{
+	display: none;
+}
+#tabletNav{
+	display: none;
+}
+ #nav{
+	 visibility: visible;
+     vertical-align: top;
+     padding: 0rem 2rem;
+     width: 20%;
+	 position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100vh;
+     display: inline-block;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+     transition: 0.5s;
+     background-color: #f9f9f7;
+}
+ .nav a{
+     font-family: 'Raleway', sans-serif;
+	 font-size: 1.125rem;
+     color: #1f1f1f;
+}
+ .nav a:hover{
+     background-color: rgba(91, 15, 10, .25);
+	 color: #5b0f0a;
+}
+ .nav a:active{
+     opacity: 50%;
+	 color: #5b0f0a;
+}
+.nav .active{
+	font-weight: bold;
+	background-color: rgba(91, 15, 10, .50);
+}
+ #titleImg{
+     margin: 2rem auto;
+     object-fit: contain;
+     width: 100%;
+     height: auto;
+}
+.aboutTitle{
+	width: 50%;
+	margin: 1rem 0rem;
+}
+.subPageTitleImg{
+	width: 50%;
+	margin: 1.5rem 0rem;
+}
+ .navFooter{
+     font-family: 'Raleway', sans-serif;
+     color: #1f1f1f;
+     font-size: x-small;
+     position: absolute;
+     bottom: 0.625rem;
+}
+ .mainContent{
+	 visibility: visible;
+     width: 73%;
+     margin: 2rem;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+     transition: 0.5s;
+}
+.mainContentMobile{
+	display: none;
+}
+
+/*CAROUSEL FLICKITY*/
+.carousel img {
+	margin: 0rem .5rem 0rem 0rem;
+  display: block;
+	width: 100%;
+}
+.carousel{
+	margin-bottom: 3rem;
+}
+.brandingGuideCarousel img{
+	width: 50%;
+}
+* { 
+	box-sizing: border-box; 
+}
+html { 
+	overflow-y: scroll; 
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #333;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: #3d3d3d;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+
+/*FLOATS*/
+ .float-left{
+     float: left;
+}
+ .float-right{
+     float: right;	 
+}
+
+/*CARDS*/
+figcaption{
+	padding: .25rem;
+}
+iframe{
+	margin: 0rem;
+	height: 50rem;
+}
+
+.row .businessCardImg{
+	width: 25%;
+	display: inline-block;
+}
+.sprinkleLabel{
+	width: 75%;
+}
+
+ .portfolioCards{
+     margin-right: 2rem;
+     width: 100%;
+}
+ .portfolioCards img{
+     margin: 2rem 1rem 1rem 0rem;
+     display: block;
+     width: 50%;
+}
+.contactBlurb{
+	padding: 5rem;
+	background-color: rgba(73, 150, 138, .50);
+}
+
+.col-8 h2{
+	text-align: left;
+}
+.col-11{
+	margin: 1rem 0rem;
+}
+.col-11 h2{
+	text-align: left;margin: 1rem 0rem;
+}
+.col-12{
+	margin: 0rem 0rem 1rem;
+}
+.col-12 h2{
+	text-align: left;
+}
+.row{
+	text-align: justify;
+	margin: 1.5rem 0rem;
+}
+ .cardDescription{
+	 padding: .5rem;
+     margin: 2rem 2rem 5rem 0rem;
+     width: 45%;
+	 background-color: #f9f9f7;
+}
+footer{
+	margin: 2rem 0rem;
+	width: 100%;
+	height: 4rem;
+}
+
+/*BUTTONS*/
+.scrollToTopBtn {
+	padding: .5rem;
+  background-color: rgba(73, 150, 138, .50);
+  border: none;
+  color: white;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+	margin: 0rem auto;
+}
+.scrollToTopBtn:hover {
+  background-color: #5b0f0a;
+}
+.scrollToTopBtn .fa-solid {
+	margin: 0rem;
+}
+.previousPage img{
+	width: 75%;
+}
+.previousPage:hover{
+	opacity: 50%;
+}
+
+.nextPage:hover{
+	opacity: 50%;
+}
+
+.contactInfo{
+	display: inline-block;
+}
+.fa-solid{
+	margin: 0rem .50rem 0rem 0rem;
+}
+.btn-secondary, .btn-primary{
+	font-family: 'Hepta Slab', serif;
+	font-weight: 300;
+	color: #FFF!important;
+    background-color: #5b0f0a!important;
+    border-width: 0!important;
+}
+#homeButton img{
+	width: 25%;
+}
+
